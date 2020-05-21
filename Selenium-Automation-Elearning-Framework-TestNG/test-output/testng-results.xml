@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="101781" started-at="2020-05-21T09:01:50Z" finished-at="2020-05-21T09:03:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="101781" started-at="2020-05-21T09:01:50Z" finished-at="2020-05-21T09:03:31Z">
+      <class name="com.training.sanity.tests.RealEstateAddMultipleRegionTC77">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="setUpBeforeClass" is-config="true" duration-ms="11" started-at="2020-05-21T14:31:50Z" finished-at="2020-05-21T14:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="setUp" is-config="true" duration-ms="25855" started-at="2020-05-21T14:31:50Z" finished-at="2020-05-21T14:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="ValidateLoginTest" duration-ms="5575" started-at="2020-05-21T14:32:16Z" data-provider="excel-inputs-Login" finished-at="2020-05-21T14:32:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginTest -->
+        <test-method status="PASS" signature="ValidateNewRegion(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="ValidateNewRegion" duration-ms="21298" started-at="2020-05-21T14:32:22Z" data-provider="excel-inputs-TC77" finished-at="2020-05-21T14:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PriyaName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PriyaSlug]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PriyaDescription]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PriyaParentRegion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNewRegion -->
+        <test-method status="PASS" signature="ValidateNewRegion(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="ValidateNewRegion" duration-ms="18564" started-at="2020-05-21T14:32:43Z" data-provider="excel-inputs-TC77" finished-at="2020-05-21T14:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IBMName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IBMSlug]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IBMDescription]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PriyaParentRegion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNewRegion -->
+        <test-method status="PASS" signature="ValidateNewRegion(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="ValidateNewRegion" duration-ms="18694" started-at="2020-05-21T14:33:01Z" data-provider="excel-inputs-TC77" finished-at="2020-05-21T14:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChennaiName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChennaiSlug]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ChennaiDescription]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PriyaParentRegion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNewRegion -->
+        <test-method status="PASS" signature="LogOutTest()[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="LogOutTest" duration-ms="9453" started-at="2020-05-21T14:33:20Z" finished-at="2020-05-21T14:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RealEstateAddMultipleRegionTC77@4520ebad]" name="tearDown" is-config="true" duration-ms="1687" started-at="2020-05-21T14:33:30Z" finished-at="2020-05-21T14:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RealEstateAddMultipleRegionTC77 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
